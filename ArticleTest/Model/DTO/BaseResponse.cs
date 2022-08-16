@@ -7,7 +7,6 @@ namespace ArticleTest.Model.DTO
 {
     public class BaseResponse
     {
-        public int page { get; set; }
-        public List<ArticleData> results { get; set; }
+        public List<string> results { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace ArticleTest.Common.Interface
 {
     public interface IArticleService
     {
-        Task<IEnumerable<ArticleData>> Get(BaseRequest req);
+        Task<IEnumerable<string>> Get(BaseRequest req);
     }
 }

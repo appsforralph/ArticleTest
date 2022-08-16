@@ -24,14 +24,13 @@ namespace ArticleTest.Controllers
         }
 
         [HttpGet]
-        [Route("article")]
+        [Route("topArticles")]
         public async Task<BaseResponse> Get([FromQuery] BaseRequest req)
         {
             var articles = await _articleService.Get(req);
             var response = new BaseResponse()
             {
                 results = articles.ToList(),
-                page = req.PageNumber,
             };
 
             return response;

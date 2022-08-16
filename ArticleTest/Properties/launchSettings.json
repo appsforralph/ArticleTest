@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "v1/article",
+      "launchUrl": "v1/topArticles",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "ArticleTest": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "v1/article",
+      "launchUrl": "v1/topArticles",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

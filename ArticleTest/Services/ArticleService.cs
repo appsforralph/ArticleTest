@@ -21,18 +21,42 @@ namespace ArticleTest.Services
             _memoryCache = memoryCache;
         }
 
-        public async Task<IEnumerable<ArticleData>> Get(BaseRequest req)
+        public async Task<IEnumerable<string>> Get(BaseRequest req)
         {
             ArticleResponse result;
-            IEnumerable<ArticleData> response = null;
+            List<ArticleData> articleList;
+            int pageNumber = 1;
+            IEnumerable<string> response = null;
 
-            var key = new { req.PageNumber }.GetHashCode();
+            var key = new { req.Limit }.GetHashCode();
 
             //Added cache set for 10mins
-            if (_memoryCache.TryGetValue(key, out result)) return response;
+            if (_memoryCache.TryGetValue(key, out response)) 
+                return response;
             result = await _articleHttpClient.Get(req);
+            articleList = result.data.ToList();
+            pageNumber++;
 
-            response = result.data;
+            //get the total pages
+            while (pageNumber <= result.total_pages)
+            {
+                result = null;
+                req.PageNumber = pageNumber;
+                result = await _articleHttpClient.Get(req);
+                articleList.AddRange(result.data.ToList());
+                pageNumber++;
+            }
+
+            response = articleList
+                .Where(d =>
+                    (d.title != null ? true : (d.story_title != null ? true : false))
+                ).OrderByDescending(c => c.num_comments).ThenBy(n => n.title)
+                .Take(req.Limit)
+                .Select(s =>
+                   (s.title != null ? s.title : (s.story_title != null ? s.story_title : null))
+                );
+
+
             _memoryCache.Set(key, response, new MemoryCacheEntryOptions().SetAbsoluteExpiration(TimeSpan.FromMinutes(10)));
 
             return response;
