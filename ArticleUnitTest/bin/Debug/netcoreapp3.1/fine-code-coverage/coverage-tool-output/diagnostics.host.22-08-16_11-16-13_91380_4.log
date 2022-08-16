@@ -1,0 +1,154 @@
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.128, 170678226389, testhost.dll, DefaultEngineInvoker.Invoke: Testhost process started with args :[--port, 65273],[--endpoint, 127.0.0.1:065273],[--role, client],[--parentprocessid, 20316],[--diag, C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.host.22-08-16_11-16-13_91380_4.log],[--tracelevel, 4],[--datacollectionport, 65272],[--telemetryoptedin, false]
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.133, 170678267022, testhost.dll, DefaultEngineInvoker.SetParentProcessExitCallback: Monitoring parent process with id: '20316'
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.144, 170678381617, testhost.dll, DefaultEngineInvoker.GetConnectionInfo: Initialize communication on endpoint address: '127.0.0.1:065273'
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.172, 170678653714, testhost.dll, SocketClient.Start: connecting to server endpoint: 127.0.0.1:065273
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.176, 170678701507, testhost.dll, DefaultEngineInvoker.ConnectToDatacollector: Connecting to datacollector, port: 65272
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:14.179, 170678732325, testhost.dll, SocketClient.OnServerConnected: connected to server endpoint: 127.0.0.1:065273
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.181, 170678745298, testhost.dll, Trying to connect to server on socket : 127.0.0.1:65272 
+TpTrace Verbose: 0 : 10948, 1, 2022/08/16, 11:16:14.181, 170678750703, testhost.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.181, 170678751396, testhost.dll, Connected to server, and starting MessageLoopAsync
+TpTrace Information: 0 : 10948, 10, 2022/08/16, 11:16:14.183, 170678769190, testhost.dll, Connected to the server successfully 
+TpTrace Information: 0 : 10948, 10, 2022/08/16, 11:16:14.183, 170678770128, testhost.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:14.184, 170678774464, testhost.dll, DefaultEngineInvoker.Invoke: Start Request Processing.
+TpTrace Information: 0 : 10948, 11, 2022/08/16, 11:16:14.184, 170678781534, testhost.dll, DefaultEngineInvoker.StartProcessingAsync: Connected to vstest.console, Starting process requests.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.185, 170678787304, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.185, 170678791246, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:14.307, 170680008966, testhost.dll, TestRequestHandler.ProcessRequests: received message: (ProtocolVersion) -> 5
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.334, 170680279727, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"Logging TestHost Diagnostics in file: C:\\Users\\rpn\\source\\repos\\ArticleTest\\ArticleUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output\\diagnostics.host.22-08-16_11-16-13_91380_4.log"}}
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.334, 170680281688, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.335, 170680282517, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:14.339, 170680325786, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.Initialize) -> [
+  "C:\\Users\\rpn\\source\\repos\\ArticleTest\\ArticleUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\xunit.runner.visualstudio.dotnetcore.testadapter.dll"
+]
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:14.339, 170680326820, testhost.dll, Execution Session Initialize.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.345, 170680385351, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.345, 170680386085, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.347, 170680405791, testhost.dll, TestExecutorService: Loading the extensions
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:14.347, 170680410771, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestExecution.StartWithSources) -> {
+  "AdapterSourceMap": {
+    "_none_": [
+      "C:\\Users\\rpn\\source\\repos\\ArticleTest\\ArticleUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ArticleUnitTest.dll"
+    ]
+  },
+  "RunSettings": "<RunSettings>\r\n  <RunConfiguration>\r\n    <ResultsDirectory>C:\\Users\\rpn\\source\\repos\\ArticleTest\\ArticleUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n    <TargetPlatform>X64</TargetPlatform>\r\n    <TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion>\r\n    <DesignMode>False</DesignMode>\r\n    <CollectSourceInformation>False</CollectSourceInformation>\r\n  </RunConfiguration>\r\n  <LoggerRunSettings>\r\n    <Loggers>\r\n      <Logger friendlyName=\"blame\" enabled=\"True\" />\r\n      <Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\5.0.408\\vstest.console.dll\" enabled=\"True\" />\r\n    </Loggers>\r\n  </LoggerRunSettings>\r\n  <DataCollectionRunSettings>\r\n    <DataCollectors>\r\n      <DataCollector friendlyName=\"blame\" enabled=\"True\">\r\n        <Configuration>\r\n          <ResultsDirectory>C:\\Users\\rpn\\source\\repos\\ArticleTest\\ArticleUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory>\r\n        </Configuration>\r\n      </DataCollector>\r\n    </DataCollectors>\r\n  </DataCollectionRunSettings>\r\n</RunSettings>",
+  "TestExecutionContext": {
+    "FrequencyOfRunStatsChangeEvent": 10,
+    "RunStatsChangeEventTimeout": "00:00:01.5000000",
+    "InIsolation": false,
+    "KeepAlive": false,
+    "AreTestCaseLevelEventsRequired": false,
+    "IsDebug": false,
+    "TestCaseFilter": null,
+    "FilterOptions": null
+  },
+  "Package": null
+}
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:14.347, 170680412211, testhost.dll, Execution started.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.348, 170680422199, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies endswith: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestExecutorPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestExecutor
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.349, 170680430206, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.350, 170680433691, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.350, 170680434137, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.352, 170680459325, testhost.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.355, 170680482669, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.355, 170680483858, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.355, 170680484268, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.355, 170680484527, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.355, 170680485059, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.356, 170680493297, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.360, 170680533710, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.visualstudio.dotnetcore.testadapter: Resolving assembly.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.361, 170680548512, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.visualstudio.dotnetcore.testadapter, from path: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.364, 170680576738, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.utility.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.365, 170680586668, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.utility.netcoreapp10, from path: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.utility.netcoreapp10.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.371, 170680649356, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.372, 170680653622, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.372, 170680654433, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.372, 170680655218, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.372, 170680655756, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:14.375, 170680689911, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.379, 170680729647, testhost.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.379, 170680731470, testhost.dll, TestExecutorExtensionManager: Loading executor Xunit.Runner.VisualStudio.VsTestRunner
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.379, 170680732068, testhost.dll, TestExecutorService: Loaded the executors
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.380, 170680740864, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies endswith: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestSettingsProviderPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ISettingsProvider
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680744349, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680744934, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680745250, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680747283, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680747946, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680748253, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680748492, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680748762, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680749170, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680749582, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.381, 170680751955, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.382, 170680752636, testhost.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.382, 170680752998, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.382, 170680753638, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.382, 170680753918, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.383, 170680763920, testhost.dll, TestExecutorService: Loaded the settings providers
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.383, 170680764701, testhost.dll, TestExecutorService: Loaded the extensions
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.458, 170681514247, testhost.dll, TestDiscoveryManager: Discovering tests from sources C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\ArticleUnitTest.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.459, 170681531994, testhost.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies endswith: TestAdapter.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.ExtensionFramework.Utilities.TestDiscovererPluginInformation TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.Adapter.ITestDiscoverer
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681532937, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681533308, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681533559, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681534666, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681535013, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681535303, testhost.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681535524, testhost.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681535745, testhost.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681536017, testhost.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.460, 170681536351, testhost.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.462, 170681558697, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.462, 170681561693, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Failed to load assembly.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.463, 170681567020, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.463, 170681568881, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.463, 170681569921, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.463, 170681570559, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.463, 170681571181, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.464, 170681579578, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681582632, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolving assembly.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681583039, testhost.dll, AssemblyResolver.OnResolve: System.ComponentModel.Primitives.resources: Resolved from cache.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681583327, testhost.dll, CurrentDomain_AssemblyResolve: Resolving assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681583601, testhost.dll, CurrentDomainAssemblyResolve: Failed to resolve assembly 'System.ComponentModel.Primitives.resources'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681590915, testhost.dll, TestPluginCache: Discovered the extensions using extension path ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681591584, testhost.dll, TestPluginCache: Discoverers are 'Xunit.Runner.VisualStudio.VsTestRunner, xunit.runner.visualstudio.dotnetcore.testadapter, Version=2.4.0.4049, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681591920, testhost.dll, TestPluginCache: Executors are 'executor://xunit/VsTestRunner2/netcoreapp'.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.465, 170681592164, testhost.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.466, 170681592375, testhost.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.473, 170681662863, testhost.dll, PEReaderHelper.GetAssemblyType: Determined assemblyType:'Managed' for source: 'C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\ArticleUnitTest.dll'
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.476, 170681701675, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:14.482, 170681753662, testhost.dll, [xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.27)
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:14.482, 170681755006, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.27)"}}
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.062, 170687554770, testhost.dll, AssemblyResolver.OnResolve: xunit.runner.reporters.netcoreapp10: Resolving assembly.
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.063, 170687563074, testhost.dll, AssemblyResolver.OnResolve: Resolved assembly: xunit.runner.reporters.netcoreapp10, from path: C:\Users\rpn\source\repos\ArticleTest\ArticleUnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\build-output\xunit.runner.reporters.netcoreapp10.dll
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.132, 170688254970, testhost.dll, [xUnit.net 00:00:00.65]   Discovering: ArticleUnitTest
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.132, 170688258084, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.65]   Discovering: ArticleUnitTest"}}
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.165, 170688588704, testhost.dll, [xUnit.net 00:00:00.68]   Discovered:  ArticleUnitTest
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.165, 170688589905, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.68]   Discovered:  ArticleUnitTest"}}
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.167, 170688610838, testhost.dll, [xUnit.net 00:00:00.69]   Starting:    ArticleUnitTest
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.167, 170688612019, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.69]   Starting:    ArticleUnitTest"}}
+TpTrace Verbose: 0 : 10948, 13, 2022/08/16, 11:16:15.212, 170689056503, testhost.dll, TestExecutionRecorder.RecordStart: Starting test: ArticleUnitTest.ArticleServiceTest.Get_Should_ReturnData.
+TpTrace Verbose: 0 : 10948, 13, 2022/08/16, 11:16:15.342, 170690353681, testhost.dll, TestExecutionRecorder.RecordResult: Received result for test: ArticleUnitTest.ArticleServiceTest.Get_Should_ReturnData.
+TpTrace Verbose: 0 : 10948, 13, 2022/08/16, 11:16:15.363, 170690568201, testhost.dll, TestExecutionRecorder.RecordEnd: test: ArticleUnitTest.ArticleServiceTest.Get_Should_ReturnData execution completed.
+TpTrace Warning: 0 : 10948, 13, 2022/08/16, 11:16:15.363, 170690569592, testhost.dll, InProgressTests is null
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.364, 170690578859, testhost.dll, [xUnit.net 00:00:00.88]   Finished:    ArticleUnitTest
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.364, 170690579779, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestSession.Message","Payload":{"MessageLevel":0,"Message":"[xUnit.net 00:00:00.88]   Finished:    ArticleUnitTest"}}
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.368, 170690620154, testhost.dll, BaseRunTests.RunTestInternalWithExecutors: Completed running tests for executor://xunit/VsTestRunner2/netcoreapp
+TpTrace Information: 0 : 10948, 4, 2022/08/16, 11:16:15.372, 170690662064, testhost.dll, Sending test run complete
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:15.381, 170690751707, testhost.dll, TcpClientExtensions.MessageLoopAsync: Polling on remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.407, 170691002688, testhost.dll, TestRequestHandler.SendData:  sending data from testhost: {"Version":2,"MessageType":"TestExecution.Completed","Payload":{"TestRunCompleteArgs":{"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"IsCanceled":false,"IsAborted":false,"Error":null,"AttachmentSets":[],"ElapsedTimeInRunningTests":"00:00:00.8946730","Metrics":{}},"LastRunTests":{"NewTestResults":[{"TestCase":{"Id":"d75d5656-e3ff-f114-3b42-13ec994f3852","FullyQualifiedName":"ArticleUnitTest.ArticleServiceTest.Get_Should_ReturnData","DisplayName":"ArticleUnitTest.ArticleServiceTest.Get_Should_ReturnData","ExecutorUri":"executor://xunit/VsTestRunner2/netcoreapp","Source":"C:\\Users\\rpn\\source\\repos\\ArticleTest\\ArticleUnitTest\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\ArticleUnitTest.dll","CodeFilePath":null,"LineNumber":0,"Properties":[]},"Attachments":[],"Outcome":1,"ErrorMessage":null,"ErrorStackTrace":null,"DisplayName":"ArticleUnitTest.ArticleServiceTest.Get_Should_ReturnData","Messages":[],"ComputerName":"LAPTOP-J8S428LN","Duration":"00:00:00.1157040","StartTime":"2022-08-16T03:16:15.3417297+00:00","EndTime":"2022-08-16T03:16:15.3417549+00:00","Properties":[]}],"TestRunStatistics":{"ExecutedTests":1,"Stats":{"Passed":1}},"ActiveTests":[]},"RunAttachments":[],"ExecutorUris":["executor://xunit/VsTestRunner2/netcoreapp"]}}
+TpTrace Verbose: 0 : 10948, 4, 2022/08/16, 11:16:15.407, 170691005983, testhost.dll, BaseRunTests.RunTests: Run is complete.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:15.409, 170691030922, testhost.dll, TcpClientExtensions.MessageLoopAsync: NotifyDataAvailable remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691032609, testhost.dll, TestRequestHandler.ProcessRequests: received message: (TestSession.Terminate) -> null
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691032952, testhost.dll, Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691035977, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:065273
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691036384, testhost.dll, SocketClient: Stop: Cancellation requested. Stopping message loop.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691037111, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691037508, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691038998, testhost.dll, SocketClient.PrivateStop: Stop communication from server endpoint: 127.0.0.1:065273, error:
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691041416, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Verbose: 0 : 10948, 6, 2022/08/16, 11:16:15.410, 170691041895, testhost.dll, TcpClientExtensions.MessageLoopAsync: exiting MessageLoopAsync remoteEndPoint: [::ffff:127.0.0.1]:65273 localEndPoint: [::ffff:127.0.0.1]:65274
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:15.410, 170691041499, testhost.dll, Closing the connection !
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:15.411, 170691042775, testhost.dll, SocketClient.Stop: Stop communication from server endpoint: 127.0.0.1:065273
+TpTrace Verbose: 0 : 10948, 1, 2022/08/16, 11:16:15.411, 170691043075, testhost.dll, LengthPrefixCommunicationChannel.Dispose: Dispose reader and writer.
+TpTrace Information: 0 : 10948, 1, 2022/08/16, 11:16:15.411, 170691043770, testhost.dll, Testhost process exiting.
