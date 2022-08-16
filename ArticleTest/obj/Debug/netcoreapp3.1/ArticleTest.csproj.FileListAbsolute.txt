@@ -31,3 +31,6 @@ C:\Users\rpn\source\repos\ArticleTest\ArticleTest\obj\Debug\netcoreapp3.1\Articl
 C:\Users\rpn\source\repos\ArticleTest\ArticleTest\obj\Debug\netcoreapp3.1\ArticleTest.dll
 C:\Users\rpn\source\repos\ArticleTest\ArticleTest\obj\Debug\netcoreapp3.1\ArticleTest.pdb
 C:\Users\rpn\source\repos\ArticleTest\ArticleTest\obj\Debug\netcoreapp3.1\ArticleTest.genruntimeconfig.cache
+C:\Users\rpn\source\repos\ArticleTest\ArticleTest\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\rpn\source\repos\ArticleTest\ArticleTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\rpn\source\repos\ArticleTest\ArticleTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
